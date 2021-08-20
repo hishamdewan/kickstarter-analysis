@@ -13,9 +13,9 @@ Purpose is to visualize campaign outcomes ("successful," "failed," and "canceled
 
 - Cleaned up the Kickstarter data to create Parent category and subcategory columns, created date created and date ended columns. 
 - Created a pivot table that looked at outcomes of campaigns ("successful," "failed," and "canceled") over month in which projects were launched. 
-- Create a line chart from the pivot table to visualize the relationship between outcomes and month in which projects were launched.
+- Create a line chart from the pivot table to visualize the relationship between outcomes and month in which projects were launched. See 
 
-![](C:\Users\hisha\OneDrive\UC Berkley Data Analytics\Week 1 Excel\Challenge\Resource\Theater_Outcomes_vs_Launch.png)
+![Theater Outcome vs Launch](kickstarter-analysis/Resource/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 Purpose is to visualize the percentage of successful, failed, and canceled plays based on the funding goal amount.I took the following steps:
@@ -23,8 +23,8 @@ Purpose is to visualize the percentage of successful, failed, and canceled plays
 - Created a table using COUNTIFS() function to count the number of plays based on outcome of the projects for various range of pledged amount. 
 - Created a table and a line chart that showed percentage of projects that were successful, failed, and canceled . 
 
-![](C:\Users\hisha\OneDrive\UC Berkley Data Analytics\Week 1 Excel\Challenge\Resource\Outcomes_vs_Goals.png)
- 
+![Theater Outcome vs Launch](kickstarter-analysis/Resource/Outcomes_vs_Goals.png)
+
 ### Challenges and Difficulties Encountered
 The main challenge was cleaning up the Kickstarter data to suit the need of the client. 
 If one is not familiar with COUNTIFS() function, please refer to [Microsoft Office tutorial](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842)
